@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #0C093C;
+    color: #FAD6D6;
+}
+
+header {
+    background-color: #CE0FBD;
+    margin: 0;
+}
