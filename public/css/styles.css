@@ -6,9 +6,41 @@
 body {
     background-color: #0C093C;
     color: #FAD6D6;
+    font-family: 'Roboto', sans-serif;
 }
 
+
+/**header**/
 header {
     background-color: #CE0FBD;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 80px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.currentDate {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.user img {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
 }
