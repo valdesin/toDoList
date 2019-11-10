@@ -1,5 +1,19 @@
 <%- include("header") -%>
 
-<h1>It's working!!!</h1>
+<main class="container-items">
+    <div class="list">
+        
+            <span class="circle-item"><div class="circle"></div><p>Gym</p></span>
+            <span class="circle-item"><div class="circle"></div><p>Running</p></span>
+            <span class="circle-item"><div class="circle"></div><p>Washing</p></span>
+            <span class="circle-item"><div class="circle"></div><p>Read</p></span>
+            <span class="circle-item"><div class="circle"></div><p>Meet Vlad on airport</p></span>
+
+            <form action="/" method="POST">
+                <input class="user-input" type="text" name="newItem">
+                <button class="user-button" type="submit">+</button>
+            </form>
+    </div>
+</main>
 
 <%- include("footer") -%>
