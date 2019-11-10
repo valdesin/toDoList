@@ -17,7 +17,7 @@ header {
     margin: 0;
     display: flex;
     justify-content: space-between;
-    height: 150px;
+    height: 120px;
     align-items: center;
 }
 
@@ -59,7 +59,7 @@ main {
     border-radius: 33px;
     margin-top: 40px;
     width: 1091px;
-    height: 813px;
+    min-height: 813px;
     background: rgb(213,18,189);
     background: linear-gradient(120deg, rgba(213,18,189,1) -10%, hsla(310, 58%, 51%, 0.596) 100%);
     display: flex;
@@ -78,6 +78,14 @@ main {
     margin-top: 70px;
 }
 
+.circle:hover {
+    background-color: rgba(15, 10, 87, 0.51);
+}
+
+.textItem:hover {
+    color: rgb(202, 167, 167);
+}
+
 .circle {
     margin-right: 10px;;
     width: 22px;
@@ -87,15 +95,21 @@ main {
 }
 
 form {
-    margin: 10px 0 0 200px;
+    margin: 10px 0 50px 200px;
 }
 
 .user-input {
+    font-size: 35px;
+    color: #FAD6D6;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid rgba(119, 13, 110, 0.459);
     width: 300px;
     height: 50px;
+}
+
+.user-input:focus {
+    outline: 0;
 }
 
 .user-button {
